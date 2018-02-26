@@ -1,4 +1,6 @@
 module.exports = {
   adapter: 'botfuel',
-  qna: {},
+  qna: {
+    when: 'before'
+  },
 };
