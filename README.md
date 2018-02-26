@@ -1,6 +1,6 @@
 # sample-botfuel-dialog-starter
 
-This sample bot is used in [**Getting Started**](https://docs.botfuel.io/dialog/demos/qna-chatbot).
+This sample bot is used in the [**QnA Chatbot demo**](https://docs.botfuel.io/dialog/demos/qna-chatbot).
 
 ## How to run the bot
 
