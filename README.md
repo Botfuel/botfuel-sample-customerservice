@@ -1,4 +1,4 @@
-# sample-botfuel-dialog-starter
+# botfuel-sample-customerservice
 
 This sample bot is used in the [**QnA Chatbot demo**](https://docs.botfuel.io/dialog/demos/qna-chatbot).
 
@@ -7,13 +7,13 @@ This sample bot is used in the [**QnA Chatbot demo**](https://docs.botfuel.io/di
 Clone the repository:
 
 ```shell
-git clone git@github.com:Botfuel/qna-demo.git
+git clone git@github.com:Botfuel/botfuel-sample-customerservice.git
 ```
 
 Install dependencies:
 
 ```shell
-cd sample-botfuel-dialog-starter
+cd botfuel-sample-customerservice
 npm install
 ```
 
