@@ -1,5 +1,5 @@
 module.exports = {
-  adapter: { name: 'botfuel' },
+  adapter: { name: 'shell' },
   nlu: {
     name: 'botfuel',
     qna: {

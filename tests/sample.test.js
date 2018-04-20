@@ -25,28 +25,6 @@ const {
 const config = require('../test-config');
 
 describe('Qna', () => {
-  test('should respond when not understood', async () => {
-    const bot = new Bot(config);
-    const { adapter } = bot;
-    const { userId } = adapter;
-    await bot.play([new UserTextMessage('Where is bryan ?')]);
-    expect(bot.adapter.log).toEqual(
-      [
-        new UserTextMessage('Where is bryan ?'),
-        new BotTextMessage(
-          'I’m sorry, I did not understand your question. Please reach us at contact@my-sample-compagny.com for further assistance.',
-        ),
-      ].map(msg => msg.toJson(userId)),
-    );
-    const user = await bot.brain.getUser(userId);
-    const dialogs = await bot.brain.getDialogs(userId);
-    expect(user._userId).toBe(userId);
-    expect(user._conversations.length).toBe(1);
-    expect(dialogs.stack).toHaveLength(0);
-    expect(dialogs.previous.length).toBe(1);
-    expect(dialogs.previous[0].name).toBe('default');
-  });
-
   test('should respond to hello', async () => {
     const bot = new Bot(config);
     const { adapter } = bot;
@@ -95,12 +73,12 @@ describe('Qna', () => {
     const bot = new Bot(config);
     const { adapter } = bot;
     const { userId } = adapter;
-    await bot.play([new UserTextMessage('A have a problem on the website.')]);
+    await bot.play([new UserTextMessage('I have a problem on the website.')]);
     expect(bot.adapter.log).toEqual(
       [
-        new UserTextMessage('A have a problem on the website.'),
+        new UserTextMessage('I have a problem on the website.'),
         new BotTextMessage(
-          'Please reach us at contact@my-sample-compagny.com for further assistance.',
+          'Please reach us at contact@my-sample-company.com for further assistance.',
         ),
       ].map(msg => msg.toJson(userId)),
     );
