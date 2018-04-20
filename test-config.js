@@ -1,10 +1,11 @@
 module.exports = {
-  adapter: { name: 'botfuel' },
+  adapter: {
+    name: 'test',
+  },
   nlu: {
     name: 'botfuel',
     qna: {
       when: 'before',
     },
   },
-  logger: 'info',
 };
