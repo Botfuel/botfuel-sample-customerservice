@@ -17,9 +17,7 @@
 
 const {
     Bot,
-    // ActionsMessage,
     BotTextMessage,
-    // Postback,
     UserTextMessage,
   } = require('botfuel-dialog');
 const config = require('../test-config');
