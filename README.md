@@ -1,6 +1,6 @@
 # botfuel-sample-customerservice
 
-This sample bot is used in the [**QnA Chatbot demo**](https://docs.botfuel.io/dialog/demos/qna-chatbot).
+This sample bot is used in the [**QnA Chatbot demo**](http://docs.botfuel.io/dialog/demos/qna-customer-service).
 
 ## How to run the bot
 
