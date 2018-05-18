@@ -2,6 +2,28 @@
 
 This sample bot is used in the [**QnA Chatbot demo**](http://docs.botfuel.io/dialog/demos/qna-customer-service).
 
+## Create an app
+
+* Create a new app on Botfuel Trainer (https://app.botfuel.io). See the [Getting Started tutorial](https://docs.botfuel.io/platform/tutorials/getting-started) for how to create a new app.
+
+* Add an QnA with title `Invoice` with:
+
+  * Training questions:
+
+    * Do you have an invoice?
+    * Can I get an invoice ?
+
+  * Answer: _Of course! The invoice for your purchase will be sent along with your goods. You can also download an electronic version from your account_
+
+* Add an QnA with title `Information` with:
+
+  * Training questions:
+
+    * I have a question.
+    * I need some information?
+
+  * Answer: _Hello! I can provide you with information about our payment and shipping policies._
+
 ## How to run the bot
 
 Clone the repository:
@@ -36,8 +58,8 @@ Try typing `I need assistance.`!
 
 ## Need help ?
 
-- See [**Getting Started**](https://docs.botfuel.io/platform/tutorials/getting-started) to learn how to run a bot in minutes.
-- See [**Concepts**](https://docs.botfuel.io/platform/concepts) for explanations about the internals of the SDK.
+* See [**Getting Started**](https://docs.botfuel.io/platform/tutorials/getting-started) to learn how to run a bot in minutes.
+* See [**Concepts**](https://docs.botfuel.io/platform/concepts) for explanations about the internals of the SDK.
 
 ## License
 
