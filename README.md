@@ -24,6 +24,8 @@ This sample bot is used in the [**QnA Chatbot demo**](http://docs.botfuel.io/dia
 
   * Answer: _Hello! I can provide you with information about our payment and shipping policies._
 
+  You can get examples of intents here : https://github.com/Botfuel/botfuel-sample-customerservice/intents.xlsx
+
 ## How to run the bot
 
 Clone the repository:
