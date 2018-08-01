@@ -4,7 +4,7 @@ This sample bot is used in the [**QnA Chatbot demo**](http://docs.botfuel.io/pla
 
 ## Create an app
 
-* Create a new app on Botfuel Trainer (https://app.botfuel.io). See the [Getting Started tutorial](https://docs.botfuel.io/platform/tutorials/getting-started) for how to create a new app.
+* Create a new app on Botfuel Trainer (https://app.botfuel.io). See the [Getting Started tutorial](https://tutorials.botfuel.io/#/codelab/getting-started?step=1) for how to create a new app.
 
 * Add an QnA with title `Invoice` with:
 
